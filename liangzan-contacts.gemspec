@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "liangzan-contacts"
-  s.version = "1.2.25"
+  s.version = "1.2.26"
   s.platform = Gem::Platform::RUBY
   s.authors = ["Lucas Carlson","Brad Imbierowicz", "Wong Liang Zan", "Mateusz Konikowski", "Laurynas Butkus"]
   s.email = "zan@liangzan.net"
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "json", "> 1.7"
   s.add_dependency 'gdata_19', '~> 1.1.3'
-  s.add_dependency 'nokogiri', '~> 1.5.0'
+  s.add_dependency 'nokogiri', '~> 1.6.0'
 
   s.files = Dir.glob("lib/**/*") + Dir.glob("examples/**/*") + %w(LICENSE README.rdoc Rakefile)
   s.require_path = "lib"
